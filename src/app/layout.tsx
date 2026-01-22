@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Barlow } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const barlow = Barlow({
-  variable: "--font-barlow",
+const geist_mono = Geist_Mono({
+  variable: "--font-geist",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${barlow.variable} antialiased`}>{children}</body>
+      <body className={`${geist_mono.variable} antialiased`}>{children}</body>
     </html>
   );
 }

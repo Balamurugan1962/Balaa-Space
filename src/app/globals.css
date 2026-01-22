@@ -1,7 +1,36 @@
 @import "tailwindcss";
 
 @theme inline {
+    --color-void: #050505;
+    --font-geist: "Geist Mono", monospace;
+    --color-void: #050505;
+    --color-surface: #0a0a0a;
+    --color-muted: #525252;
+    --color-subtle: #a3a3a3;
+    --color-text: #fafafa;
+    --color-accent: #6366f1;
+    --line-height: 1.5;
+}
+
+:root {
+    --color-void: #050505;
+    --color-text: #fafafa;
 }
 
 @layer base {
+    html {
+        font-family: var(--font-geist), "Inter", sans-serif;
+        font-size: 16px;
+        line-height: var(--line-height);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        background-color: var(--color-void);
+        color: var(--color-text);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
