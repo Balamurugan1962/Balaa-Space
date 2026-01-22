@@ -1,5 +1,5 @@
-"use client";
+import { Home } from "@/features/home/Home";
 
 export default function Page() {
-  return <div>Hello</div>;
+  return <Home />;
 }
