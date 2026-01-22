@@ -6,8 +6,8 @@ import { Back } from "@/components/Back";
 
 export default function Contact() {
   return (
-    <main className="w-screen h-screen flex items-center justify-center p-3">
-      <section className="flex flex-col gap-7 items-center p-3 max-w-[20rem]">
+    <main className="w-screen min-h-dvh flex items-center justify-center p-3">
+      <section className="flex flex-col gap-7 items-center max-w-[20rem] w-full">
         <div className="flex flex-col gap-7 w-full">
           <h1 className="text-xl">Contact Me here</h1>
           <div className="flex flex-wrap gap-3">
