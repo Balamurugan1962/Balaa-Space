@@ -1,6 +1,6 @@
 import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
-import { CONTACTS_ITEMS } from "./constants/Contact_items";
+import { CONTACTS_ITEMS } from "../../constants/Contact_items";
 import { LinkComponent } from "@/components/Link";
 import { Back } from "@/components/Back";
 

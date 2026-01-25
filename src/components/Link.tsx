@@ -1,6 +1,7 @@
 import { tv } from "tailwind-variants";
 import { ChevronRight, ExternalLink } from "lucide-react";
-import { NavBarItem } from "@/features/home/types/NavBar_items";
+import { NavBarItem } from "@/types/NavBar_items";
+import { ContactType } from "@/types/ContactTypes";
 
 const link = tv({
   base: "flex justify-between items-center w-full",
@@ -13,6 +14,7 @@ const link = tv({
     type: {
       link: "text-accent group-hover:underline",
       nav: "text-subtle group-hover:text-text",
+      blog: "",
     },
   },
   defaultVariants: {
@@ -21,8 +23,8 @@ const link = tv({
   },
 });
 
-type LinkProps = NavBarItem & {
-  type?: "nav" | "link";
+type LinkProps = (NavBarItem | ContactType) & {
+  type?: "nav" | "link" | "blog";
 };
 
 export function LinkComponent({ label, href, link_type, type }: LinkProps) {

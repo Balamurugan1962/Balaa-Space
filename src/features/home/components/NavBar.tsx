@@ -1,5 +1,5 @@
 import { LinkComponent } from "@/components/Link";
-import { NAVBAR_ITEMS } from "../constants/NavBar_items";
+import { NAVBAR_ITEMS } from "../../../constants/NavBar_items";
 
 export function NavBar() {
   return (

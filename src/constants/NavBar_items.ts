@@ -6,7 +6,7 @@ export const NAVBAR_ITEMS = [
   },
   {
     label: "Blogs",
-    href: "/under-construction",
+    href: "/blog",
     link_type: "internal",
   },
   // {
