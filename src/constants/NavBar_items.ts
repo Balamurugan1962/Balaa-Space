@@ -5,6 +5,11 @@ export const NAVBAR_ITEMS = [
     link_type: "external",
   },
   {
+    label: "Terminal",
+    href: "/terminal",
+    link_type: "internal",
+  },
+  {
     label: "Blogs",
     href: "/blog",
     link_type: "internal",
